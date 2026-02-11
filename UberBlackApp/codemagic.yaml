@@ -5,7 +5,7 @@ workflows:
     environment:
       vars:
         GOOGLE_MAPS_API_KEY:
-          value: "SUA_CHAVE_GOOGLE_MAPS_AQUI"
+          value: AIzaSyBRpwEHKyBUrQ9DAmXn_o__zUXp1DH3ee4
           secure: true
     scripts:
       - name: Install dependencies
@@ -16,4 +16,5 @@ workflows:
           flutter build apk --release
     artifacts:
       - build/app/outputs/flutter-apk/app-release.apk
+
 
