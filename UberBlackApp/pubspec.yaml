@@ -1,5 +1,6 @@
 name: uber_black_app
-description: App para simular fluxo Uber Black
+description: Aplicativo de simulação Uber Black
+publish_to: "none"
 version: 1.0.0+1
 
 environment:
@@ -8,8 +9,12 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  google_maps_flutter: ^2.3.0
-  url_launcher: ^6.1.7
+  google_maps_flutter: ^2.2.5
+  url_launcher: ^6.1.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
 
 flutter:
   uses-material-design: true
